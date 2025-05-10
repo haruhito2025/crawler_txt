@@ -26,7 +26,7 @@ logger = logging.getLogger(__name__)
 SCRAPED_DIR = "scraped_text"
 OUTPUT_FILE = "unique_combined_text.txt"
 ENCODINGS = ['utf-8', 'shift_jis', 'cp932']  # 試行するエンコーディングのリスト
-VIDEO_EXTENSIONS = ['.mp4.txt', '.mov.txt', '.avi.txt']  # 除外する動画ファイルの拡張子
+VIDEO_EXTENSIONS = ['.mp4.txt', '.mov.txt', '.avi.txt','_mp4.txt', '_mov.txt', '_avi.txt']  # 除外する動画ファイルの拡張子
 
 def setup_output_file() -> bool:
     """出力ファイルの準備を行う"""
