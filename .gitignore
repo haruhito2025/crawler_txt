@@ -31,7 +31,22 @@ ENV/
 *.swp
 *.swo
 
-# プロジェクト固有
+# プロジェクト固有 - 成果物ファイル（GitHubにアップロードしない）
 scraped_text/
+cursor_docs_clean/
+cursor_docs_scraped/
+cursor_docs_readable/
 unique_combined_text.txt
-*.log 
+*.log
+
+# 日本語ドキュメント成果物
+Cursor完全ドキュメント*.md
+*日本語版*.md
+*完全日本語版*.md
+
+# 中間ファイル
+README_*.md
+
+# システムファイル
+.DS_Store
+Thumbs.db 
